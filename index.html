@@ -1,79 +1,124 @@
-
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>V.E. BATIMENT</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <title>Fair Investment OU</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', sans-serif; background: #f9fafb; color: #111827; line-height: 1.6; }
-    header, footer { background: #1f2937; color: white; text-align: center; padding: 30px; }
-    nav a { color: #fbbf24; margin: 0 12px; text-decoration: none; font-weight: 600; }
-    section { padding: 60px 20px; max-width: 1200px; margin: auto; text-align: center; }
-    h2 { color: #1f2937; margin-bottom: 20px; font-size: 2.4em; }
-    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-    .gallery img { width: 100%; border-radius: 8px; }
-    .contact-form input, .contact-form textarea {
-      width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f7fa;
     }
-    iframe { width: 100%; height: 300px; border: 0; border-radius: 8px; margin-top: 20px; }
+    header {
+      background: linear-gradient(to right, #023e8a, #0096c7);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 38px;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 15px;
+    }
+    .intro {
+      background: #e0f4ff;
+      padding: 30px;
+      font-size: 17px;
+      color: #023047;
+      text-align: center;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    .part {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+    .card {
+      background-color: white;
+      border: 2px solid #0077b6;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+      text-align: center;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+    }
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+    .card h3 {
+      font-size: 16px;
+      color: #0077b6;
+      margin: 10px 0 5px;
+    }
+    .card p {
+      font-size: 13px;
+      color: #444;
+      padding: 0 10px 15px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>V.E. BATIMENT</h1>
-  <nav>
-    <a href="#about">Présentation</a>
-    <a href="#services">Services</a>
-    <a href="#gallery">Galerie</a>
-    <a href="#contact">Contact</a>
-    <a href="#map">Adresse</a>
-  </nav>
-</header>
+  <header>
+    <h1>Fair Investment OU</h1>
+    <p>contact@fairinvest.shop | +37258522812</p>
+  </header>
 
-<section id="about">
-  <h2>Présentation</h2>
-  <p>Basée à Les Mureaux, V.E. BATIMENT est une entreprise spécialisée dans la maçonnerie générale et les gros travaux de construction. Grâce à une équipe qualifiée, nous réalisons des chantiers sur mesure en respectant les normes de qualité et de sécurité.</p>
-</section>
-
-<section id="services">
-  <h2>Nos Services</h2>
-  <p>Gros œuvre de bâtiment, travaux de maçonnerie, fondations, rénovation structurelle, et accompagnement personnalisé pour tous vos projets de construction.</p>
-</section>
-
-<section id="gallery">
-  <h2>Galerie</h2>
-  <div class="gallery">
-    <img src="https://images.unsplash.com/photo-1570126681032-3a7c41f13b0d?auto=format&fit=crop&w=800&q=80" alt="chantier 1">
-    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80" alt="chantier 2">
-    <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=80" alt="chantier 3">
+  <div class="intro">
+    Fair Investment OU est une société estonienne spécialisée dans les services immobiliers, les investissements locatifs et la gestion d’actifs. Elle propose des solutions fiables et professionnelles pour accompagner ses clients dans tous leurs projets.
   </div>
-</section>
 
-<section id="contact">
-  <h2>Contactez-nous</h2>
-  <p>Email : contact@vebatiment.shop</p>
-  <p>Téléphone : +33 6 05 99 64 90</p>
-  <form class="contact-form">
-    <input type="text" placeholder="Nom">
-    <input type="email" placeholder="Email">
-    <textarea placeholder="Votre message"></textarea>
-    <button type="submit">Envoyer</button>
-  </form>
-</section>
+  <section class="part">
+    <div class="card">
+      <img src="https://avatars.mds.yandex.net/i?id=65f69abafdccfbd908c94def37cf5abe1d71008d-12799632-images-thumbs&n=13" alt="Custom 1">
+      <h3>Investissement</h3>
+      <p>Opportunités sûres dans l'immobilier international.</p>
+    </div>
+    <div class="card">
+      <img src="https://avatars.mds.yandex.net/i?id=175c337048d105045bad1b5d9aef9492505e527f-7756218-images-thumbs&n=13" alt="Custom 2">
+      <h3>Location</h3>
+      <p>Biens locatifs gérés pour une rentabilité durable.</p>
+    </div>
+    <div class="card">
+      <img src="https://avatars.mds.yandex.net/i?id=72a7b92cfe0ed47a0abca74175e1b95ac342fe8a-5225958-images-thumbs&n=13" alt="Custom 3">
+      <h3>Immobilier</h3>
+      <p>Achat, vente et gestion d’actifs immobiliers.</p>
+    </div>
+    <div class="card">
+      <img src="https://avatars.mds.yandex.net/i?id=175c337048d105045bad1b5d9aef9492505e527f-7756218-images-thumbs&n=13" alt="Custom 4">
+      <h3>Commercial</h3>
+      <p>Locaux et projets commerciaux adaptés à vos besoins.</p>
+    </div>
+    <div class="card">
+      <img src="https://avatars.mds.yandex.net/i?id=65f69abafdccfbd908c94def37cf5abe1d71008d-12799632-images-thumbs&n=13" alt="Custom 5">
+      <h3>Développement</h3>
+      <p>Partenaire dans vos projets de construction ou rénovation.</p>
+    </div>
+  </section>
 
-<section id="map">
-  <h2>Adresse</h2>
-  <p>66 Avenue du Maréchal Foch, 78130 Les Mureaux, France</p>
-  <iframe src="https://www.google.com/maps?q=66+Avenue+du+Mar%C3%A9chal+Foch,+Les+Mureaux,+France&output=embed" allowfullscreen loading="lazy"></iframe>
-</section>
-
-<footer>
-  &copy; 2025 V.E. BATIMENT — Tous droits réservés
-</footer>
+  <footer>
+    📍 Randla tn 30, 10315 Tallinn, Estonia<br>
+    &copy; 2025 Fair Investment OU — All rights reserved.
+  </footer>
 
 </body>
 </html>
